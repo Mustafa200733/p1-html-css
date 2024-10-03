@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../Ouderavond"
+		},
+		{
+			"path": "../../../Downloads/Nieuwe map (2)"
+		},
+		{
+			"path": "../../../Downloads/Nieuwe map"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Ouderavond"
+	}
+}
