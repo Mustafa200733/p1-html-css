@@ -7,8 +7,7 @@ h1{
 }
 h2 {
     color: #0000ff;
-    
-}
+    }
 
 h2 {
     font-size: 20px;
@@ -16,7 +15,9 @@ h2 {
     h3 {color:Teal;
     }
     
+    h3{ 
         font-size: 16px;
+ }
 
         p{color:#4D4D4D 
             }

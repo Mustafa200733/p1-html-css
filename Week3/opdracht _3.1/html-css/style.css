@@ -1,4 +1,8 @@
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 html {
   font-size: 62.5%;
 }
@@ -45,6 +49,6 @@ h1{
   transform: translate(-50%,-50%);
   color: #fff;
   text-align: center;
-  font-size: 70px;
+  font-size: 35px;
 
 }
