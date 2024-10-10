@@ -1,27 +1,50 @@
-h1{
-   color: blue; 
-} 
-
-h1{
-    font-size: 24px;
+h1 {
+  color: blue;
+  font-size: 24px;
 }
-h2 {
-    color: #0000ff;
-    }
+
 
 h2 {
-    font-size: 20px;
+  color: #0000ff;
+  font-size: 20px;
 }
-    h3 {color:Teal;
-    }
-    
-    h3{ 
-        font-size: 16px;
- }
 
-        p{color:#4D4D4D 
-            }
 
-        a{color: #8A2BE2;
-        }
+h3 {
+  color: Teal;
+  font-size: 16px;
+}
 
+
+p {
+  color: #4d4d4d;
+}
+
+a {
+  color: #8a2be2;
+}
+header {
+    width: 100vw;
+    height: 33vh;
+    background-image: url('./img/diofield.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+    color: red;
+}
+header p {
+    color: red
+}
+
+img{
+    width: 50vw;
+}
+
+article {
+    border-left: 10px;
+    border: solid red 5px;
+  
+}
