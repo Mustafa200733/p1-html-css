@@ -1,8 +1,11 @@
-* {
-  margin: 0;
+*{
   padding: 0;
-  box-sizing: border-box;
+  margin: 0;
+  
 }
+
+
+
 html {
   font-size: 62.5%;
 }
@@ -44,7 +47,7 @@ nav img {
 
 h1{
   position: absolute;
-  top: 50%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%,-50%);
   color: #fff;
@@ -52,3 +55,142 @@ h1{
   font-size: 35px;
 
 }
+ .phpTxt {
+  position: absolute;
+  top: 30%:
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color:black;
+  text-align:center;
+  font-size:50px;
+}
+
+.HTMLTxt{
+  position: absolute;
+  top: 30%:
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color:black;
+  text-align:center;
+  font-size:50px;
+}
+
+.SQLTxt{
+  position: absolute;
+  top: 30%:
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color:#fff;
+  text-align:center;
+  font-size:50px;
+}
+
+.javascriptTxt{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #fff;
+  text-align: center;
+  font-size:50px;
+}
+
+.SQLTxtp{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color:WHITE;
+  text-align: center;
+  font-size:10px;
+}
+
+
+.Javascriptpp{
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color:WHITE;
+  text-align: center;
+  font-size:10px;
+  
+}
+
+h2 {
+  letter-spacing: 1px;
+  
+}
+
+
+h2{
+  text-indent:550px;
+}
+
+footer{ width: 100%;
+  padding: 1rem;
+  min-height: 5vh;
+  align-items: center;
+  background: #00a8c7;
+  justify-content: space-between;
+ h2{color:#fff}
+ position: absolute;
+ bottom: 0;
+}
+
+p {
+  width: 100%;
+  padding: 1rem;
+}
+  .javascriptTxt{
+    color: #fff;
+  }
+
+  .html2{
+  position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:black;
+    text-align: center;
+    font-size: 10px;
+}
+.php2{
+position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:black;
+    text-align: center;
+    font-size: 10px;
+}
+
+
+
+ 
+ h2{color:#fff}
+
+
+img{
+  padding:1rem;
+  width: 25%;
+ min height: 10vh;
+ align-items: center;
+}
+
+.javascript{
+  background-image: none;
+ background-color: black;
+ 
+}
+
+
+.SQL{
+  background-image: none;
+  background-color: black;
+}
+
+
+
+
+ 
