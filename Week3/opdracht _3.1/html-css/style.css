@@ -119,12 +119,14 @@ h1{
 
 h2 {
   letter-spacing: 1px;
-  
+ 
 }
 
 
 h2{
   text-indent:550px;
+  
+ 
 }
 
 footer{ width: 100%;
@@ -133,9 +135,9 @@ footer{ width: 100%;
   align-items: center;
   background: #00a8c7;
   justify-content: space-between;
- h2{color:#fff}
- position: absolute;
- bottom: 0;
+  h2{color:#fff}
+  position: absolute;
+  bottom: 0;
 }
 
 p {
