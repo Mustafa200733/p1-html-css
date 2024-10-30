@@ -1,3 +1,15 @@
+nav {
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  background: #00a8c7;
+  justify-content: space-between;
+}
+
 *{
   padding: 0;
   margin: 0;
@@ -13,17 +25,8 @@ body {
   font-family: "Goldman", cursive;
 }
 
-nav {
-  display: flex;
-  width: 100%;
-  padding: 2rem;
-  min-height: 10vh;
-  align-items: center;
-  flex-wrap: wrap;
-  margin: auto;
-  background: #00a8c7;
-  justify-content: space-between;
-}
+
+
 nav ul {
   display: flex;
   align-items: center;
@@ -129,16 +132,7 @@ h2{
  
 }
 
-footer{ width: 100%;
-  padding: 1rem;
-  min-height: 5vh;
-  align-items: center;
-  background: #00a8c7;
-  justify-content: space-between;
-  h2{color:#fff}
-  position: absolute;
-  bottom: 0;
-}
+
 
 p {
   width: 100%;
@@ -178,6 +172,7 @@ img{
   width: 25%;
  min height: 10vh;
  align-items: center;
+ float:center;
 }
 
 .javascript{
@@ -192,7 +187,16 @@ img{
   background-color: black;
 }
 
-
+footer{ width: 100%;
+  padding: 1rem;
+  min-height: 5vh;
+  align-items: center;
+  background: #00a8c7;
+  justify-content: space-between;
+  h2{color:#fff}
+  position: absolute;
+  bottom: 0;
+}
 
 
  
