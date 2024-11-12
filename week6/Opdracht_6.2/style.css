@@ -1,5 +1,8 @@
-.blok{
-width: 200; 
-height: 200;
-container: 1200;
+.box1
+.box2       
+.box3        
+{
+    width: 20px;
+    height: 20px;
 }
+
