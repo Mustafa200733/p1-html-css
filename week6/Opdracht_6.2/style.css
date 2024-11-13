@@ -1,8 +1,43 @@
-.box1
-.box2       
-.box3        
-{
-    width: 20px;
-    height: 20px;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
 }
-
+ 
+.flex-container {
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-around; /* Spaces out the items evenly */
+}
+ 
+/* Styling for each square block */
+.flex-item {
+    width: 200px;
+    height: 200px;
+}
+ 
+/* Colors for each item */
+.blue {
+    background-color: blue;
+}
+ 
+.black {
+    background-color: black;
+}
+ 
+.red {
+    background-color: red;
+}
+ 
+.green {
+    background-color: green;
+}
+ 
+/* Bonus: Reverse the order of the items */
+.flex-container {
+    flex-direction: row-reverse;
+}
+heeft contextmenu
