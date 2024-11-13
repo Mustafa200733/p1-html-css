@@ -10,6 +10,91 @@ nav {
     justify-content: space-between;
   }
   
+
+/* Algemene stijlen voor de navbar */
+nav {
+  background-color: #00a8c7;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+li {
+  margin: 0 15px;
+}
+
+/* Stijl voor de links */
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 15px;
+  display: block;
+}
+
+/* Stijl voor de dropdown container */
+.dropdown {
+  position: relative;
+}
+
+/* De dropdown content is verborgen standaard */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Dropdown links */
+.dropdown-content a {
+  color: #00a8c7;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Hover effect voor de links in de dropdown */
+.dropdown-content a:hover {
+  background-color: #E9E9E9;
+}
+
+/* Toon de dropdown wanneer je hover over de dropdown-container */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Stijl voor de 'jaar 2' knop wanneer je er overhovert */
+.dropdown:hover .dropbtn {
+  color:#00a8c7; /* Blauwe kleur */
+  background-color: white; /* Witte achtergrond */
+  padding-right: 20px; /* Ruimte voor het vierkantje */
+}
+
+/* Het witte vierkantje achter de 'jaar 2' knop */
+.dropdown:hover .dropbtn::after {
+  content: "";
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border: 2px solid;
+  color:##00a8c7; /* Blauwe rand */
+  border-radius: 2px;
+}
+
+
+
+
   *{
     padding: 0;
     margin: 0;
