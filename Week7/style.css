@@ -1,0 +1,96 @@
+@media (max-width: 768px) {
+    .header {
+        background-color: #1f6390;
+    }
+ 
+    .yellow {
+        background-color: yellow;
+    }
+ 
+    .orange {
+        background-color: orange;
+    }
+ 
+    .green {
+        background-color: green;
+    }
+ 
+    h2 {
+        font-size: 1.5em;
+    }
+ 
+    p {
+        font-size: 1em;
+    }
+}
+ 
+ 
+@media (max-width: 580px) {
+    .header {
+        background-color: red;
+        position: relative;
+    }
+ 
+    .dropdown-placeholder {
+        display: block;
+        width: 20px;
+        height: 20px;
+        background-color: #fff;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+ 
+    .yellow {
+        background-color: yellow;
+    }
+ 
+    .orange {
+        background-color: orange;
+    }
+ 
+    .green {
+        background-color: green;
+    }
+ 
+    h2 {
+        font-size: 1.3em;
+    }
+ 
+    .p {
+        font-size: 0.9em;
+    }
+}
+.logo{
+    background-color: red;
+}
+ .haak2{
+    background-color: yellow;
+
+ }
+ .hak3{
+    background-color: orange;
+ }
+ .ka4{
+    background-color: green;
+ }
+ 
+ .logo{
+    color: #fff;
+ }
+
+.tat{
+    background-color: yellow;}
+    .sectionyellow{
+        background-color: yellow;
+    }
+ 
+ .sectionorange{
+background-color: orange;
+ }
+
+.gret{
+    background-color: green;}
+    .sectiongreen{
+        background-color: green;
+    }
