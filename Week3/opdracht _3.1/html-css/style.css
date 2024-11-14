@@ -1,3 +1,24 @@
+*{
+  padding: 0;
+  margin: 0;
+  
+}
+
+
+
+html {
+  font-size: 45%;
+}
+body {
+  font-family: "Goldman", cursive;
+}
+
+.h1bo{
+  position: relative;
+  position-anchor: 12;
+}
+
+
 nav {
     display: flex;
     width: 100%;
@@ -40,6 +61,7 @@ a {
 /* Stijl voor de dropdown container */
 .dropdown {
   position: relative;
+  
 }
 
 /* De dropdown content is verborgen standaard */
@@ -54,7 +76,7 @@ a {
 
 /* Dropdown links */
 .dropdown-content a {
-  color: #00a8c7;
+  color:#00a8c7;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -71,45 +93,13 @@ a {
 }
 
 /* Stijl voor de 'jaar 2' knop wanneer je er overhovert */
-.dropdown:hover .dropbtn {
+.dropdown:hover .dropdown {
   color:#00a8c7; /* Blauwe kleur */
-  background-color: white; /* Witte achtergrond */
+  background-color:white; Witte achtergrond
   padding-right: 20px; /* Ruimte voor het vierkantje */
 }
 
-/* Het witte vierkantje achter de 'jaar 2' knop */
-.dropdown:hover .dropbtn::after {
-  content: "";
-  position: absolute;
-  right: 10px;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 10px;
-  height: 10px;
-  background-color: white;
-  border: 2px solid;
-  color:##00a8c7; /* Blauwe rand */
-  border-radius: 2px;
-}
 
-
-
-
-  *{
-    padding: 0;
-    margin: 0;
-    
-  }
-  
-  
-  
-  html {
-    font-size: 62.5%;
-  }
-  body {
-    font-family: "Goldman", cursive;
-  }
-  
   
   
   nav ul {
@@ -161,16 +151,18 @@ a {
     color:black;
     text-align:center;
     font-size:50px;
+    
   }
-  
-  .SQLTxt{
+
+  .SQLTxtpp{
     position: absolute;
     top: 30%;
     left: 50%;
     transform: translate(-50%,-50%);
-    color:#fff;
-    text-align:center;
-    font-size:50px;
+    color:white;
+    text-align: center;
+    font-size:15px;
+    
   }
   
   .javascriptTxt{
@@ -183,15 +175,7 @@ a {
     font-size:50px;
   }
   
-  .SQLTxtp{
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    color:WHITE;
-    text-align: center;
-    font-size:10px;
-  }
+
   
   
   .Javascriptpp{
@@ -201,21 +185,19 @@ a {
     transform: translate(-50%,-50%);
     color:WHITE;
     text-align: center;
-    font-size:10px;
+    font-size:15px;
     
+  }
+
+  .javasscriptImg{
+    position: ;
   }
   
   h2 {
     letter-spacing: 1px;
-   
-  }
-  
-  
-  h2{
     text-indent:550px;
-    
-   
   }
+  
   
   
   
@@ -234,7 +216,7 @@ a {
       transform: translate(-50%, -50%);
       color:black;
       text-align: center;
-      font-size: 10px;
+      font-size: 15px;
   }
   .php2{
   position: absolute;
@@ -243,24 +225,29 @@ a {
       transform: translate(-50%, -50%);
       color:black;
       text-align: center;
-      font-size: 10px;
+      font-size: 15px;
   }
   
 
-.tok{
-  height:1px ;
-}
+
   .hackerachter{
-    position: auto;
-    width: 1550px;
-    height: 700px;
-  }
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+   }
    
    h2{color:#fff}
   
+
+  .tar{
+    color: white;
+    position: absolute;
+    width:100vw ;
+    height:100vh ;
+  }
   
   img{
-    padding:1rem;
+    /* padding:1rem; */
     width: 25%;
    min height: 10vh;
    align-items: center;
@@ -271,6 +258,10 @@ a {
     background-image: none;
    background-color: black;
    
+  }
+
+  .javasscriptImg{
+   top: 0%;
   }
   
   
@@ -293,4 +284,3 @@ a {
    
   }
 
- 
