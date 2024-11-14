@@ -10,7 +10,7 @@ body {
 .flex-container {
     display: flex;
     max-width: 1200px;
-    justify-content: space-around; /* Spaces out the items evenly */
+    justify-content: space-between; /* Spaces out the items evenly */
 }
  
 /* Styling for each square block */
@@ -22,22 +22,35 @@ body {
 /* Colors for each item */
 .blue {
     background-color: blue;
+    justify-content: space-between; 
+    margin-right: 100px; 
 }
  
 .black {
     background-color: black;
-}
+    letter-spacing: 10;
+    justify-content: space-between;
+    margin-right: 100px; 
+} 
  
 .red {
     background-color: red;
+    justify-content: space-between; 
+    margin-right: 100px; 
 }
  
 .green {
     background-color: green;
+    justify-content: space-between;
+    margin-right: 100px; 
 }
  
 /* Bonus: Reverse the order of the items */
 .flex-container {
     flex-direction: row-reverse;
+   
 }
 heeft contextmenu
+
+
+

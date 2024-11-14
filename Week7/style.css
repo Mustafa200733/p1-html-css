@@ -1,96 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 @media (max-width: 768px) {
-    .header {
-        background-color: #1f6390;
-    }
- 
-    .yellow {
-        background-color: yellow;
-    }
- 
-    .orange {
-        background-color: orange;
-    }
- 
-    .green {
-        background-color: green;
-    }
- 
-    h2 {
-        font-size: 1.5em;
-    }
- 
-    p {
-        font-size: 1em;
-    }
-}
- 
- 
-@media (max-width: 580px) {
-    .header {
-        background-color: red;
-        position: relative;
-    }
- 
-    .dropdown-placeholder {
-        display: block;
-        width: 20px;
-        height: 20px;
-        background-color: #fff;
-        position: absolute;
-        top: 20px;
-        right: 20px;
-    }
- 
-    .yellow {
-        background-color: yellow;
-    }
- 
-    .orange {
-        background-color: orange;
-    }
- 
-    .green {
-        background-color: green;
-    }
- 
-    h2 {
-        font-size: 1.3em;
-    }
- 
-    .p {
-        font-size: 0.9em;
-    }
-}
-.logo{
-    background-color: red;
-}
- .haak2{
+  .header {
+    background-color: #1f6390;
+  }
+
+  .yellow {
     background-color: yellow;
+  }
 
- }
- .hak3{
+  .orange {
     background-color: orange;
- }
- .ka4{
+  }
+
+  .green {
     background-color: green;
- }
- 
- .logo{
-    color: #fff;
- }
+  }
 
-.tat{
-    background-color: yellow;}
-    .sectionyellow{
-        background-color: yellow;
-    }
- 
- .sectionorange{
-background-color: orange;
- }
+  h2 {
+    font-size: 1.5em;
+  }
 
-.gret{
-    background-color: green;}
-    .sectiongreen{
-        background-color: green;
+  p {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 580px) {
+  .header {
+    background-color: red;
+    position: relative;
+  }
+
+  .dropdown-placeholder {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  .yellow {
+    background-color: red;
+  }
+
+  .orange {
+    background-color: orange;
+  }
+
+  .green {
+    background-color: green;
+  }
+
+  h2 {
+    font-size: 1.3em;
+  }
+
+  .p {
+    font-size: 0.9em;
+  }
+
+  @media (max-width: 768px) {
+    .header {
+      background-color: #1f6390;
     }
+  
+    .yellow {
+      background-color: yellow;
+    }
+  
+    .orange {
+      background-color: orange;
+    }
+  
+    .green {
+      background-color: green;
+    }
+  
+    h2 {
+      font-size: 1.5em;
+    }
+  
+    p {
+      font-size: 1em;
+    }
+  }
+
+
+}
+.logo {
+  background-color: red;
+  height: 10vh;
+}
+.haak2 {
+  background-color: yellow;
+  height: 20vh;
+}
+.hak3 {
+  background-color: orange;
+  height: 20vh;
+}
+.ka4 {
+  background-color: green;
+  height: 20vh;
+}
+
+.logo {
+  color: #fff;
+}
+
+.tat {
+  background-color: yellow;
+}
+.sectionyellow {
+  background-color: yellow;
+}
+
+.sectionorange {
+  background-color: orange;
+}
+
+.gret {
+  background-color: green;
+}
+.sectiongreen {
+  background-color: green;
+}
