@@ -28,21 +28,20 @@ body {
  
 .black {
     background-color: black;
-    letter-spacing: 10;
     justify-content: space-between;
-    margin-right: 100px; 
+    margin-right: 7vw; 
 } 
  
 .red {
     background-color: red;
     justify-content: space-between; 
-    margin-right: 100px; 
+    margin-right: 7vw; 
 }
  
 .green {
     background-color: green;
     justify-content: space-between;
-    margin-right: 100px; 
+    margin-right: 7vw; 
 }
  
 /* Bonus: Reverse the order of the items */
