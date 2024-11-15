@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base settings */
+.logo {
+  color: #fff;
+}
+
+.header {
+  background-color: red;
+  height: 10vh;
+}
+
+.section1 {
+  background-color: yellow;
+  padding: 55px;
+}
+
+.section2 {
+  background-color: orange;
+  padding: 55px;
+}
+
+.section3 {
+  background-color: green;
+  padding: 55px;
+}
+
+/* ---------------------------------------------------------- */
+
+/* MEDIA QUERIES */
+
+/* Large screens (up to 1200px) */
+@media (max-width: 1200px) {
+  .header {
+    background-color: red;
+  }
+
+  .logo {
+    color: #fff;
+    background-color: red;
+  }
+
+  .section1 {
+    background-color: yellow;
+  }
+
+  .section2 {
+    background-color: orange;
+  }
+
+  .section3 {
+    background-color: green;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+}
+
+/* Medium screens (up to 768px) */
+@media (max-width: 768px) {
+  .header {
+    background-color: lightcoral;
+  }
+
+  .logo {
+    background-color: rgb(240, 128, 128);
+    height: 15vh;
+  }
+
+  .section1 {
+    background-color: rgb(230, 73, 73);
+  }
+
+  .section2 {
+    background-color: rgb(75, 88, 194);
+  }
+
+  .section3 {
+    background-color: rgb(57, 63, 231);
+  }
+}
+
+/* Small screens (up to 576px) */
+@media (max-width: 576px) {
+  .header {
+    background-color: blueviolet;
+    position: relative;
+  }
+
+  .logo {
+    background-color: rgb(66, 66, 211);
+    height: 10vh;
+  }
+
+  .text {
+    text-align: center;
+  }
+
+  .dropdown-placeholder {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  .section1 {
+    background-color: skyblue;
+  }
+
+  .section2 {
+    background-color: rgb(158, 30, 132);
+  }
+
+  .section3 {
+    background-color: rgb(68, 68, 238);
+  }
+
+  h2 {
+    font-size: 1.3em;
+  }
+
+  p {
+    font-size: 0.9em;
+  }
+}
