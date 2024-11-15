@@ -156,12 +156,13 @@ a {
 
   .SQLTxtpp{
     position: absolute;
-    top: 30%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%,-50%);
     color:white;
     text-align: center;
     font-size:15px;
+    margin-top: top;
     
   }
   

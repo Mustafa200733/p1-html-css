@@ -4,20 +4,56 @@
   box-sizing: border-box;
 }
 
-@media (max-width: 768px) {
+/* Basesettings */
+
+.logo {
+  color: #fff;
+}
+
+.header {
+  background-color: red;
+  height: 10vh;
+}
+.section1 {
+  background-color: yellow;
+  padding: 55px;
+}
+
+.section2 {
+  background-color: orange;
+  padding: 55px;
+}
+
+.section3 {
+  background-color: green;
+  padding: 55px;
+}
+
+/* ---------------------------------------------------------- */
+
+/* 
+MEDIA QUERIES */
+
+@media (max-width: 1200px) {
   .header {
-    background-color: #1f6390;
+    background-color: red;
   }
 
-  .yellow {
+  .logo {
+    background-color: red;
+    color: #fff;
+    height: 10vh;
+  }
+
+  .section1 {
     background-color: yellow;
   }
 
-  .orange {
+  .section2 {
     background-color: orange;
   }
 
-  .green {
+  .section3 {
     background-color: green;
   }
 
@@ -30,10 +66,17 @@
   }
 }
 
-@media (max-width: 580px) {
+@media (max-width: 576px) {
   .header {
-    background-color: red;
+    background-color: blueviolet;
     position: relative;
+  }
+  .logo {
+    background-color: blueviolet;
+    height: 10vh;
+  }
+  .text {
+    text-align: center;
   }
 
   .dropdown-placeholder {
@@ -45,17 +88,20 @@
     top: 20px;
     right: 20px;
   }
-
-  .yellow {
-    background-color: red;
+  .logo {
+    background-color: rgb(66, 66, 211);
+    height: 10vh;
+  }
+  .section1 {
+    background-color: skyblue;
   }
 
-  .orange {
-    background-color: orange;
+  .section2 {
+    background-color: rgb(158, 30, 132);
   }
 
-  .green {
-    background-color: green;
+  .section3 {
+    background-color: rgb(68, 68, 238);
   }
 
   h2 {
@@ -65,70 +111,37 @@
   .p {
     font-size: 0.9em;
   }
+}
 
-  @media (max-width: 768px) {
-    .header {
-      background-color: #1f6390;
-    }
-  
-    .yellow {
-      background-color: yellow;
-    }
-  
-    .orange {
-      background-color: orange;
-    }
-  
-    .green {
-      background-color: green;
-    }
-  
-    h2 {
-      font-size: 1.5em;
-    }
-  
-    p {
-      font-size: 1em;
-    }
+@media (max-width: 768px) {
+  .header {
+    background-color: lightcoral;
+  }
+  .logo {
+    background-color: rgb(240, 128, 128);
+    height: 15vh;
   }
 
+  .section1 {
+    background-color: rgb(230, 73, 73);
+    padding: 55px;
+  }
 
-}
-.logo {
-  background-color: red;
-  height: 10vh;
-}
-.haak2 {
-  background-color: yellow;
-  height: 20vh;
-}
-.hak3 {
-  background-color: orange;
-  height: 20vh;
-}
-.ka4 {
-  background-color: green;
-  height: 20vh;
-}
+  .section2 {
+    background-color: rgb(75, 88, 194);
+    padding: 55px;
+  }
 
-.logo {
-  color: #fff;
-}
+  .section3 {
+    background-color: rgb(57, 63, 231);
+    padding: 55px;
+  }
 
-.tat {
-  background-color: yellow;
-}
-.sectionyellow {
-  background-color: yellow;
-}
+  h2 {
+    font-size: 1.5em;
+  }
 
-.sectionorange {
-  background-color: orange;
-}
-
-.gret {
-  background-color: green;
-}
-.sectiongreen {
-  background-color: green;
+  p {
+    font-size: 1em;
+  }
 }
